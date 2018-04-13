@@ -1,0 +1,556 @@
+﻿*{
+	margin: 0 ;
+	padding: 0;
+	/* 去掉列表标签的样式 */
+	list-style: none;
+	}
+a{
+	text-decoration: none;
+
+}
+/* 头部开始 */
+.header{
+	width: 100%;
+	height: 32px;
+	border-bottom: 1px solid #cccccc;
+}
+.header1{
+	width: 1200px;
+	height: 32px;
+	margin: 0 auto;
+
+}
+.header_main{
+
+	width: 430px;
+	height: 32px;
+	float: right;
+}
+.welcome{
+	width: 132px;
+	height: 32px;
+	color:#818181;
+	font-size:12px;
+	line-height: 32px;
+	margin-right: 17px;
+	float: left;
+
+}
+.zhuce{
+	width: 77px;
+	height: 32px;
+	color:#818181;
+	font-size:12px;
+	line-height: 32px;
+	text-align: center;
+	margin-right: 12px;
+	float: left;
+}
+.zhuce a,.dingdan a,.gonggao a{
+	color:#727272;
+	text-decoration: none;
+}
+.dingdan{
+	width: 48px;
+	height: 32px;
+	color:#818181;
+	font-size:12px;
+	line-height: 32px;
+	margin-right: 13px;
+	float: left;
+}
+.dingdan:hover a{
+	color: #c6191d;
+}
+.gonggao{
+	width:72px;
+	height: 32px;
+	color:#818181;
+	font-size:12px;
+	line-height: 32px;
+	margin-right: 13px;
+	float: left;
+}
+.gonggao img{
+	vertical-align: middle;
+}
+.gonggao:hover a{
+	color: #c6191d;
+}
+.lianjie{
+	width: 44px;
+	height: 32px;
+	line-height: 32px;
+	margin-right: 2px;
+	float: left;
+}
+.lianjie img{
+	margin-top: 8px;
+}
+/* 头部结束 */
+/* 导航栏开始 */
+.head{
+	width: 1200px;
+	height: 144px;
+	margin: 0 auto;
+}
+.find{
+	width:1200px ;
+	height: 29px;
+	margin-top: 28px ;
+}
+.f-rigth{
+	width:437px ;
+	height: 29px;
+	float: right
+}
+.shuru{
+  	width:307px ;
+	height: 29px;
+	border-right: none;
+	float: left;
+
+}
+.shuru input{
+	  	width:258px ;
+		height: 25px;
+		float: left;
+
+}
+.shuru button{
+	width: 45px;
+	height: 29px;
+	background: #c30d1c;
+	float: left;
+	border: none;
+	color: #ffdde3;
+}
+.hot{
+	width: 1200px;
+	height: 20px;
+}
+ .hot_box {
+ 	width: 423px;
+	float: right;
+	font-size: 12px;
+	color: #545454;
+	margin-top: 8px;
+} 
+.hot_box a{
+	color: #545454;
+	text-decoration: none;
+	 margin-right: 2px;
+}
+.shop{
+	display: block;
+	width: 107px;
+	height: 27px;
+	float: right;
+	border: 1px solid #935250;
+	background: #b71721;
+	background: url('../img/shopcar.png') no-repeat -153px 0;
+	text-decoration: none;
+}
+.shop:hover{
+	background: url('../img/shopcar.png') no-repeat -153px -29px;
+}
+.shop:hover span{
+	color: #b71721;
+}
+.shop span{
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	margin-left: 29px;
+	margin-top:8px;
+}
+.kind{
+	width: 1200px;
+	height: 75px;
+	margin-top: 20px;
+}
+.kind_logo{
+	display: block;
+	width: 166px;
+	height: 47px;
+	float: left;
+	background: url('../img/shopcar.png') no-repeat 0 -59px;
+}
+nav{
+	width: 989px;
+	height: 18px;
+	float: right;
+	margin-top: 21px;
+}
+nav a{
+	display: block;
+	width: 98px;
+	height: 18px;
+	border-right: 1px solid #7c7875;
+	float: left;
+	font-size: 16px;
+	color: #605f5d;
+	text-align: center;
+	line-height: 18px;
+	text-decoration: none;
+}
+nav a:last-child{
+	border-right: none;
+}
+/* 导航栏结束 */
+/* banner开始 */
+.banner{
+	width: 1200px;
+	height: 530px;
+	background: red;
+	margin: 0 auto;
+}
+.swiper-container {
+    width: 1200px;
+	height: 535px;
+} 
+/* banner结束 */
+/* 充值开始 */
+.chongzhi{
+	display: block;
+	width: 1200px;
+	height: 134px;
+	margin: 48px auto 0;
+	
+}
+.chongzhi img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+/* 充值结束 */
+/* 秒杀开始 */
+.miaosha{
+	width: 1200px;
+	height: 420px;
+	margin: 0 auto;
+}
+/* 秒杀结束 */
+/* 秒杀列表开始 */
+.miaosha .m-title{
+	width: 1200px;
+	height: 64px;
+	margin-bottom: 10px;
+	background: url('../img/每日秒杀.jpg') no-repeat;
+}
+.m-right{
+	width: 440px;
+	height: 64px;
+	float: right;
+	/* background: yellow; */
+}
+.m-r_left{
+	width: 242px;
+	height: 64px;
+	line-height: 64px;
+	color: #fff;
+	font-size: 20px;
+	float: left;
+	/* background: rgba(0,255, 0,0.4); */
+}
+.m-r-right{
+	width: 149px;
+	height: 64px;
+	/* background: rgba(0, 0, 255, 0.4); */
+	float:right;
+	line-height: 64px;
+	color: #680e10;
+	font-size: 20px;
+	margin-right: 31px;
+	margin-left: 3px;
+}
+.m-r-right span{
+	margin-right: 33px;
+}
+.m-r-right span:last-child{
+	margin-right:0;
+}
+.miaosha_list{
+	width: 1200px;
+	height: 327px;
+	margin: 0 auto 45px;
+}
+.miaosha_list li{
+	width: 232px;
+	height: 100%;
+	float: left;
+	margin-right: 10px;
+}
+.miaosha_list li:last-child{
+	margin-right: 0;
+}
+.miaosha_list li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.miaosha_img{
+	width: 232px;
+	height: 232px;
+	background: red;
+}
+.miaosha_img img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.miaosha_text{
+	width: 100%;
+	height: 42px;
+	margin-top: 11px;
+	font-size: 16px;
+	color: #333238;
+	line-height: 21px;
+	font-weight: normal;
+}
+.miaosha_price{
+	width: 100%;
+	height: 42px;
+}
+.miaosha_price h2{
+	width: 100%;
+	height: 19px;
+	font-size: 15px;
+	color: #c9c9c9;
+	text-decoration: line-through;
+	font-weight: normal;
+}
+.miaosha_now{
+	width: 100%;
+	height: 23px;
+}
+.miaosha_now h3{
+	float: left;
+	font-size: 18px;
+	color: #c7283e;
+	line-height: 23px;
+	font-weight: normal;
+}
+.miaosha_now h4{
+	float:right;
+	font-size: 16px;
+	color: #41403c;
+	line-height: 23px;
+	font-family: "黑体";
+	font-weight: normal;
+}
+.miaosha_now h4 span{
+	font-size: 26px;
+	color: #c02837;
+	font-weight: bold;
+}
+/* 秒杀列表结束 */
+/* 内容开始 */
+.public{
+	width: 1200px;
+	height: 2586px;
+	margin: 0 auto;
+}
+.t_shrit{
+	width: 1200px;
+	margin: 0 auto;
+	
+}
+.t_shrit img + img{
+	margin: 35px 12px 0;
+}
+.t_shrit .img-1{
+	margin-left:18px ;
+}
+.nuanchun{
+	width: 1200px;
+	height: 1356px;
+	margin: 20px auto;
+	/* background: red; */
+}
+.situ{
+	width: 1200px;
+	height: 495px;	
+}
+.situ img{
+	float: left;
+}
+.santu{
+	width: 1200px;
+	height: 862px;
+}
+.santu img{
+	float: left;
+}
+/* 内容结束
+/* 服务盒子开始 */
+.fuwu_box{
+	width:1198px ;
+	height: 282px;
+	/* background: red; */
+	border: 1px solid #e1e1e1;
+	margin: 30px auto ;
+}
+.fuwutop_box{
+	width: 1112px;
+	height: 137px;
+	margin: 33px auto 0;
+}
+.fuwulist{
+	width: 369px;
+	height: 138px;
+	/* background: pink; */
+	border-right: 1px solid #e1e1e1;
+	float: left; 
+}
+.fuwutop_box :last-child{
+	border-right:none;
+}
+.kefu{
+	width: 37px;
+	height: 40px;
+	background: red;
+	margin: 14px auto 32px;
+}
+.text{
+	width: 156px;
+	height: 32px;
+	background: #c3191c;
+	font-size: 12px;
+	color: #fff;
+	line-height: 32px;
+	text-align:center;
+	margin: 0 auto; 
+}
+.sevenday{
+	width: 38px;
+	height: 38px;
+	background: red;
+	margin: 20px auto 28px;
+}
+.text2{
+	width: 122px;
+	height: 38px;
+	/* background: yellow; */
+	margin: 0 auto;	
+}
+.texttop{
+	width: 78px;
+	height: 12px;
+	/* background: blue; */
+	margin:0 auto 14px;
+	font-size: 12px;
+	color: #6c6b73;
+	line-height: 12px;
+	text-align:center;
+}
+.textbottom{
+	width: 122px;
+	height: 12px;
+	/* background: blue; */
+	font-size: 12px;
+	color: #6c6b73;
+	line-height: 12px;
+	text-align:center;
+}
+.erweima{
+	width: 97px;
+	height: 97px;
+	/* background: red; */
+	margin: 4px auto 21px;
+}
+.text3{
+	width: 126px;
+	height: 12px;
+	/* background: blue; */
+	font-size: 12px;
+	color: #5d6069;
+	line-height: 12px;
+	text-align:center;
+	margin: 0 auto;
+}
+.guanyu{
+	width: 1116px;
+	height: 56px;
+	background: #f7f7f7;
+	margin: 30px auto 25px;
+}
+.bottom_box{
+	width: 1116px;
+	margin: 0 auto;
+}
+
+.bottom_box li{
+	font-size: 11px;
+	color: #262722;
+	float: left;
+	border-right: 1px solid #d9d9d9;
+	line-height: 20px;
+	/* 内容填充：上下 左右 */
+	padding: 0 64px;
+	margin-top: 20px;
+}
+.bottom_box li:last-child{
+	border-right: none;
+}
+/* 服务盒子结束 */
+/* 最下开始 */
+.footer{
+	width: 100%;
+	height: 160px;
+	border-top: 1px solid #393939;
+}
+.neirong{
+	width: 832px;
+	height: 118px;
+	margin: 17px auto 25px;
+}
+.toptext{
+	width: 832px;
+	height: 12px;
+	margin: 0 auto;
+	margin-top: 17px;
+	font-size: 12px;
+	color: #5a5456;
+	font-family: "微软雅黑";
+}
+.bottomtext{
+	width: 168px;
+	height: 12px;
+	margin: 0 auto;
+	margin-top: 13px;
+	margin-bottom: 37px;
+	font-size: 12px;
+	color: #5a5456;
+	font-family: "微软雅黑";
+}
+.img_logo{
+	width: 740px;
+	height: 45px;
+	margin: 0 auto;
+}
+.img_logo a{
+	display: block;
+	height: 45px;
+	float: left;
+	margin-right: 21px;
+}
+/* 最下结束 */
+/* 固定定位开始 */
+.fix{
+	width: 73px;
+	height: 205px;
+	/* border: 1px solid #882843; */
+	border-bottom: none;
+	/* 固定定位 */
+	position: fixed;
+	/* top left bottom right */
+	right: 10px;
+	bottom: 30px;
+	/* 层级 */
+	z-index: 999;
+}
+.fix img{
+	margin-top: -3px;
+}
+/* 固定定位结束 */
